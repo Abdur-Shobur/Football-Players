@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- .font awesome  -->
+    <link
+      href="https://kit-pro.fontawesome.com/releases/v5.15.3/css/pro.min.css"
+      rel="stylesheet"
+    />
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Football legends</title>
+  </head>
+
+  <body>
+    <img alt="" class="background-animate" src="./media/bg.png" />
+    <!-- ------------------- banner start ----------------- -->
+    <section>
+      <div class="banner">
+        <div class="container">
+          <div class="banner_content">
+            <div class="banner_txt">
+              <div class="banner_area">
+                <h1>The Football legends are on the earth</h1>
+                <p>
+                  You are wellcome to watch the beggest show in
+                  <span class="eleps_mobile">....</span>
+                  <span class="eleps_tab">
+                    this world. Lets go and enjoy the moment with you and your
+                    family
+                  </span>
+                </p>
+                <a class="btn" href="#">
+                  Watch Live
+                  <span><i class="fas fa-arrow-right"></i></span>
+                </a>
+              </div>
+            </div>
+            <div class="banner_img">
+              <img class="plyaer" src="./media/banner image.png" alt="#" />
+              <div class="animate_image">
+                <img src="./media/flag/asset 1.webp" alt="" />
+                <img src="./media/flag/asset 2.svg" alt="" />
+                <img src="./media/flag/asset 3.webp" alt="" />
+                <img src="./media/flag/asset 4.svg" alt="" />
+                <img src="./media/flag/asset 5.svg" alt="" />
+                <img src="./media/flag/asset 6.svg" alt="" />
+                <img src="./media/flag/asset 7.svg" alt="" />
+                <img src="./media/flag/asset 8.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- banner end   -->
+
+    <!---------Player add ------------------>
+    <section class="container">
+      <div class="upcomming_match_wrap">
+        <div class="all_match">
+          <!-- all players add from js obj  -->
+          <div class="match_list"></div>
+        </div>
+
+        <!-- calculation ammount  -->
+        <aside>
+          <div class="select_v_playars">
+            <h1 class="select_h1">Selected - V</h1>
+
+            <!-- selected player  from js -->
+            <ul class="players_list"></ul>
+          </div>
+          <div class="select_v_playars">
+            <h1 class="select_h1">Budget</h1>
+            <div class="budget_wrap">
+              <div class="pp_butget">
+                <div class="flex_b">
+                  <h2 class="text-sm">Per Player</h2>
+                  <input class="input-fild player-budget" type="number" />
+                </div>
+                <button
+                  class="c-btn plyer-calculate"
+                  style="background-color: #00d9a6; color: #fff;"
+                >
+                  Calculate
+                </button>
+              </div>
+              <div class="pp_butget">
+                <div class="flex_b my-3">
+                  <h2 class="">Player Expenses</h2>
+                  <h2 style="width: 100px; text-align: right;">
+                    $
+                    <span class="setPlayerBudget" style="color: #00d9a6;">
+                      00
+                    </span>
+                  </h2>
+                </div>
+                <div class="flex_b">
+                  <h2 class="text-sm">Manager</h2>
+                  <input class="input-fild manager-budget" type="number" />
+                </div>
+                <div class="flex_b my-3">
+                  <h2 class="text-sm">Coach</h2>
+                  <input class="input-fild coach-budget" type="number" />
+                </div>
+                <button
+                  class="c-btn final-calculate"
+                  style="background-color: #00d9a6; color: #fff;"
+                >
+                  Calculate
+                </button>
+                <div class="flex_b my-3">
+                  <h2 class="">Total</h2>
+                  <h2>
+                    $
+                    <span style="color: #00d9a6;" class="total-ammount">
+                      00
+                    </span>
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <!-- upcomming news and blog end  -->
+
+    <!-------------------------- Footer Start ----------------- -->
+    <footer class="">
+      <div class="container">
+        <div class="footer_tittle">
+          <h1>Goal</h1>
+        </div>
+        <hr />
+
+        <!-- Footer menu  -->
+        <div class="footer_menu">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li>
+              <a href="#">Terms of Service</a>
+            </li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Privacy Settings</a></li>
+            <li><a href="#">Goal App</a></li>
+            <li><a href="#">Goal Live</a></li>
+          </ul>
+        </div>
+
+        <!-- social icon  -->
+        <div class="footer_social">
+          <ul class="social_icon">
+            <li>
+              <a target="_blank" href="https://web.facebook.com/abdurshoburr/">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://github.com/Abdur-Shobur">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a target="_blank" href="https://codepen.io/abdur-shobur">
+                <i class="fab fa-codepen"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer End  -->
+    <script src="./js/utility.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
+<!-- --------------- The End ---------- -->
